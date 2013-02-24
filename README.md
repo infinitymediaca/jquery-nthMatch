@@ -9,19 +9,19 @@ nth-of-type is dependent on the element type.
 
 In BOTH cases the outcome can be influenced by elements not in the wraped set.  nthMatch is dependent ONLY on the contents of the wrapped set. Type and child position have no bearing.  consider the following tree:
 
-html
-  body
-    div.menu
-      ul
-        li.first
-          a.firstLink
-        li.last
-          a.lastLink
-    div.content
-      h2
-        span
-      p
-        strong
+    html
+      body
+        div.menu
+          ul
+            li.first
+              a.firstLink
+            li.last
+              a.lastLink
+        div.content
+          h2
+            span
+          p
+            strong
         
 
 the following $('body *').nthMatch('3n+1'); would yeild a wrapped set with: a.firstLink, div.content & p.  
