@@ -1,11 +1,11 @@
 /*
 * jQuery nth-match Filter
-* https://github.com/infinitymediaca/
+* https://github.com/infn8/
 *
 * Author: Arron Gibson
 * eMail: arron@infinitymedia.ca
 *
-* Copyright 2013, Infinity Media Services Inc.
+* Copyright 2014, Infinity Media Services Inc.
 * GNU GENERAL PUBLIC LICENSE
 * http://www.gnu.org/licenses/gpl.txt
 */
